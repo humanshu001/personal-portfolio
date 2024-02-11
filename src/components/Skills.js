@@ -51,7 +51,9 @@ export default function Skills() {
                         <h3 className='mx-3 pb-2 mb-3' style={{color:'var(--color-5)',borderBottom:'3px solid var(--color-5)',display:'inline'}}>Programming Languages</h3>
                         <div className="col-md-8 m-auto">
                             <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/Python-3776AB.svg?style=for-the-badge&logo=python&logoColor=white"/>
+                            <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=white"/>
                             <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/C-24.svg?style=for-the-badge&logo=C&logoColor=white"/>
+                            <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/PHP-777BB4.svg?style=for-the-badge&logo=php&logoColor=white"/>
                             <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/C++-00599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white"/>
                         </div>
                     </div>
