@@ -9,7 +9,7 @@ export default function Resume() {
             <h1 className='my-4' style={{color:'var(--color-6)',fontWeight:'900',fontSize:'70px'}}>Resume</h1>
             </div>
             <div className="resume" style={{height:'20vh',display:'flex',justifyContent:'center', alignItems:'center'}}>
-                <a style={{padding:'10px',backgroundColor:'var(--color-2)',textDecoration:'none',borderRadius:'8px',fontSize:'20px'}} href={resume}>View Resume</a>
+                <a style={{padding:'10px',color:'var(--color-6)',backgroundColor:'var(--color-2)',textDecoration:'none',borderRadius:'8px',fontSize:'20px'}} href={resume}>View Resume</a>
             </div>
         </div>
     </>
