@@ -123,3 +123,14 @@ a:visited{
   }
   
 }
+@media screen and (max-width: 773px){
+  .cont{
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 1037px){
+  .mobile{
+    width: 100%!important;
+  }
+}
