@@ -90,6 +90,16 @@ export default function Contact() {
                   </div>
                   </div>
                   <div className="contact mb-3 d-flex justify-content-between">
+                  <div className='col-md-6' style={{color: 'var(--color-5)', fontSize:'17px'}}>
+                    <b>Facebook : </b>
+                  </div>
+                  <div className='col-mr-6 d-flex justify-content-center' style={{color: 'var(--color-3)',}}>
+                    <a href="https://www.facebook.com/profile.php?id=61550547220983">
+                    <img className='m-0' src="https://img.shields.io/badge/facebook-%231877F2.svg?style=for-the-badge&logo=facebook&logoColor=white" alt="" />
+                    </a>
+                  </div>
+                  </div>
+                  <div className="contact mb-3 d-flex justify-content-between">
                     <div className='col-md-6' style={{color: 'var(--color-5)', fontSize:'17px'}}>
                       <b>GitHub : </b>
                       </div>
