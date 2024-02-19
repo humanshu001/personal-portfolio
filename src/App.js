@@ -48,7 +48,7 @@ function App() {
     <div>
       <Router>
       <div className='intro text-center' style={{height:'100vh',width:'100vw',fontSize:'40px',color:'var(--color-6)',position:'fixed',backgroundColor:'var(--color-1)',zIndex:'300'}}>
-            <div style={{marginTop:'50vh'}}>{text.slice(0, index+1)} <span className='writer' style={{color:'var(--color-4)'}}>|</span></div>
+            <div style={{marginTop:'30vh'}}>{text.slice(0, index+1)} <span className='writer' style={{color:'var(--color-4)'}}>|</span></div>
       </div>
       <NavBar/>
 
