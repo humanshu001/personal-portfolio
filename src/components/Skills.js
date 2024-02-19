@@ -43,8 +43,10 @@ export default function Skills() {
                         <div className="col-md-8 m-auto">
                             <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/Git-F05032.svg?style=for-the-badge&logo=git&logoColor=white"/>
                             <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=github&logoColor=white"/>
+                            <img src="https://img.shields.io/badge/Thunder Client-F0ff32.svg?style=for-the-badge&logo=thunder-client&logoColor=white" alt="" className="m-1" />
                             <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/Postman-FF6C37.svg?style=for-the-badge&logo=postman&logoColor=white"/>
                             <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/Visual Studio Code-007ACC.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white"/>
+                            <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/Repl.it-2r34da.svg?style=for-the-badge&logo=replit&logoColor=white"/>
                         </div>
                     </div>
                     <div className="card p-3 m-3 mb-5" style={{backgroundColor:'var(--color-2)',border:'none',width:'18rem'}}>
