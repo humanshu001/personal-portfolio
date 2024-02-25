@@ -148,17 +148,17 @@ export default function Contact() {
               <form onSubmit={(e) => onSubmit(e)}>
                 <div className="form-group formcarry-block">
                   <label style={{color:'var(--color-5)'}} htmlFor="name">Full Name</label>
-                  <input className='mb-2' style={{backgroundColor:'var(--color-2)',padding:'7px',color:'var(--color-6)',borderRadius:'5px',width:'100%',border:'1px solid var(--color-6)',outline:'none'}} type="text" value={name} onChange={(e) => setName(e.target.value)} id="name" />
+                  <input className='mb-2' style={{backgroundColor:'var(--color-2)',padding:'7px',color:'var(--color-6)',borderRadius:'5px',width:'100%',border:'1px solid var(--color-6)',outline:'none'}} type="text" value={name} onChange={(e) => setName(e.target.value)} id="name" required/>
                 </div>
                 
                 <div className="form-group formcarry-block">
                   <label style={{color:'var(--color-5)'}} htmlFor="email">Your Email Address</label>
-                  <input className='mb-2' style={{backgroundColor:'var(--color-2)',padding:'7px',color:'var(--color-6)',borderRadius:'5px',width:'100%',border:'1px solid var(--color-6)',outline:'none'}} type="email" value={email} onChange={(e) => setEmail(e.target.value)} id="email" />
+                  <input className='mb-2' style={{backgroundColor:'var(--color-2)',padding:'7px',color:'var(--color-6)',borderRadius:'5px',width:'100%',border:'1px solid var(--color-6)',outline:'none'}} type="email" value={email} onChange={(e) => setEmail(e.target.value)} id="email" required />
                 </div>
                 
                 <div className="form-group formcarry-block">
                   <label style={{color:'var(--color-5)'}} htmlFor="message">Your message</label>
-                  <textarea className='mb-2' style={{backgroundColor:'var(--color-2)',padding:'7px',color:'var(--color-6)',borderRadius:'5px',width:'100%',border:'1px solid var(--color-6)',outline:'none'}} value={message} onChange={(e) => setMessage(e.target.value)} id="message"></textarea>
+                  <textarea className='mb-2' style={{backgroundColor:'var(--color-2)',padding:'7px',color:'var(--color-6)',borderRadius:'5px',width:'100%',border:'1px solid var(--color-6)',outline:'none'}} value={message} onChange={(e) => setMessage(e.target.value)} id="message" required></textarea>
                 </div>
                 
                 <div className="formcarry-block d-flex justify-content-center">  
