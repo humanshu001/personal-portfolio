@@ -60,9 +60,11 @@ export default function Skills() {
                         </div>
                     </div>
                     <div className="card p-3 m-3 mb-5" style={{backgroundColor:'var(--color-2)',border:'none',width:'18rem'}}>
-                        <h3 className='mx-3 pb-2 mb-3' style={{color:'var(--color-5)',borderBottom:'3px solid var(--color-5)',display:'inline'}}>Designing Applications</h3>
+                        <h3 className='mx-3 pb-2 mb-3' style={{color:'var(--color-5)',borderBottom:'3px solid var(--color-5)',display:'inline'}}>Graphic Designing</h3>
                         <div className="col-md-8 m-auto">
                             <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/Adobe Photoshop-31A8FF.svg?style=for-the-badge&logo=adobe-photoshop&logoColor=white"/>
+                            <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/Adobe Illustrator-FF9A00.svg?style=for-the-badge&logo=adobe-illustrator&logoColor=white"/>
+                            <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/Adobe Premiere Pro-9999FF.svg?style=for-the-badge&logo=adobe-premiere-pro&logoColor=white"/>
                             <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/Canva-7333CC.svg?style=for-the-badge&logo=canva&logoColor=white"/>            
                         </div>
                     </div>
