@@ -1,0 +1,74 @@
+{
+    "frontend": [
+      "html",
+      "css",
+      "bootstrap",
+      "javascript",
+      "react",
+      "typescript",
+      "angular"
+    ],
+    "backend": [
+      "node.js",
+      "express",
+      "django",
+      "flask",
+      "php"
+    ],
+    "databases": [
+      "mongodb",
+      "mysql",
+      "sqlite",
+      "postgresql"
+    ],
+    "python_libraries": [
+      "beautifulsoup",
+      "google generative ai",
+      "scrapy",
+      "keras",
+      "tensorflow",
+      "requests",
+      "selenium",
+      "pandas",
+      "numpy"
+    ],
+    "tools": [
+      "git",
+      "github",
+      "thunder client",
+      "postman",
+      "visual studio code",
+      "repl.it",
+      "docker",
+      "heroku",
+      "vercel",
+      "filezilla",
+      "render"
+    ],
+    "programming_languages": [
+      "python",
+      "javascript",
+      "c",
+      "c++",
+      "php",
+      "java",
+      "typescript",
+      "rust"
+    ],
+    "graphic_designing": [
+      "adobe photoshop",
+      "adobe illustrator",
+      "canva",
+      "figma",
+      "adobe premiere pro"
+    ],
+    "management_skills": [
+      "leadership",
+      "teamwork",
+      "problem solving",
+      "time management",
+      "adaptability",
+      "conflict resolution",
+      "decision making"
+    ]
+  }
