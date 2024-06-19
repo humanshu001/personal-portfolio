@@ -3,9 +3,9 @@
 :root{
   --color-1: #1a1a1a;
   --color-2: #282c34; /* Dark gray background color */
-  --color-3: #61afef; /* Blue text color */
+  --color-3: #6aff00; /* Blue text color */
   --color-4: #e06c75; /* Red text color */
-  --color-5: #6aff00; /* Green text color */
+  --color-5: #61afef; /* Green text color */
   --color-6: #ffae00; /* Yellow text color */
   /* blue hover color */
   --color-3-hover: #528bff;
