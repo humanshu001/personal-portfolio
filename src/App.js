@@ -19,6 +19,8 @@ import AdminProjects from './components/admin/AdminProjects';
 import AdminSkills from './components/admin/AdminSkills';
 import AdminResume from './components/admin/AdminResume';
 import AdminStats from './components/admin/AdminStats';
+
+import { Analytics } from "@vercel/analytics/react"
 // import { useLocation } from 'react-router-dom';
 
 function App() {
@@ -26,6 +28,7 @@ function App() {
   return (
     <div>
       <Router>
+        <Analytics/>
       
 
 
