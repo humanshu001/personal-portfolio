@@ -108,6 +108,16 @@ a:visited{
     text-align: right;
     margin-top: 30px;
   }
+
+  .edu-hobby{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .edu-hobby div{
+    width: 100%;
+    margin-bottom: 20px;
+  }
 }
 .about{
   background-color: var(--color-1);
@@ -188,6 +198,8 @@ body {
 body::-webkit-scrollbar-track {
   background: var(--scrollbarBG);
 }
+
+
 
 body::-webkit-scrollbar-thumb {
   background-color: var(--thumbBG) ;

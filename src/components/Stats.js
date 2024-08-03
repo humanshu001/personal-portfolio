@@ -5,7 +5,7 @@ export default function Stats() {
     <>
         <div className="row skills m-3" style={{backgroundColor:'var(--color-1)',borderRadius:'5px'}}>
             <div className="col-12 text-center">
-                <h1 className='my-4' style={{color:'var(--color-6)',fontWeight:'900',fontSize:'70px'}}>Github Stats</h1>
+                <h1 className='my-4' style={{color:'var(--color-6)',fontWeight:'900',fontSize:'55px'}}>Github Stats</h1>
             </div>
             <div className="stats">
                 <img style={{height:'250px'}} className='m-auto mb-3' src="https://github-readme-streak-stats.herokuapp.com/?user=humanshu001&background=282c34&currStreakLabel=ffae00&currStreakNum=ffae00&dates=61afef&fire=6aff00&ring=6aff00&hide_border=true&hide_total_contributions=true&hide_longest_streak=true&card_width=230" alt=''/>

@@ -5,7 +5,7 @@ export default function Skills() {
     <>
         <div className="row skills m-3 mb-5" style={{backgroundColor:'var(--color-1)',borderRadius:'5px'}}>
             <div className="col-12 text-center">
-                <h1 className='my-4' style={{color:'var(--color-6)',fontWeight:'900',fontSize:'70px'}}>Skills</h1>
+                <h1 className='my-4' style={{color:'var(--color-6)',fontWeight:'900',fontSize:'55px'}}>Skills</h1>
             </div>
             <div className="col-12 text-center">
                 <div className="row d-flex justify-content-center">

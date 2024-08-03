@@ -46,10 +46,10 @@ export default function Contact() {
     <>
         <div className="row resume m-3" style={{backgroundColor:'var(--color-1)',borderRadius:'5px'}}>
             <div className="col-12 text-center">
-            <h1 className='my-4' style={{color:'var(--color-6)',fontWeight:'900',fontSize:'70px'}}>Contact</h1>
+            <h1 className='my-4' style={{color:'var(--color-6)',fontWeight:'900',fontSize:'55px'}}>Contact</h1>
             </div>
-            <div className="d-flex cont">
-              <div className="card p-3 m-3 col-md-6 d-flex align-items-center justify-content-center" style={{backgroundColor:'var(--color-2)',border:'none'}}>
+            <div className="d-flex cont justify-content-evenly mb-5">
+              <div className="card p-3 m-3 col-md-5 d-flex align-items-center justify-content-center" style={{backgroundColor:'var(--color-2)',border:'none'}}>
                 <div className="card-body mobile w-50">
                 <div className="contact mb-3 d-flex justify-content-between">
                   <div className='col-md-6' style={{color: 'var(--color-5)', fontSize:'17px'}}>
