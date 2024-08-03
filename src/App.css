@@ -24,6 +24,9 @@ html,body{
 }
 body{
   background-color: var(--color-2);
+  background-image: radial-gradient(var(--color-1) 2.5px, transparent 0);
+  background-size: 25px 25px;
+  background-position: -5px -5px
 }
 .navbar *{
   color: var(--color-6);
