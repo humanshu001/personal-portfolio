@@ -44,12 +44,12 @@ export default function Contact() {
 
   return (
     <>
-        <div className="row resume m-3" style={{backgroundColor:'var(--color-1)',borderRadius:'5px'}}>
+        <div className="row resume m-3" style={{backgroundColor:'var(--color-1)',borderRadius:'20px'}}>
             <div className="col-12 text-center">
             <h1 className='my-4' style={{color:'var(--color-6)',fontWeight:'900',fontSize:'55px'}}>Contact</h1>
             </div>
             <div className="d-flex cont justify-content-evenly mb-5">
-              <div className="card p-3 m-3 col-md-5 d-flex align-items-center justify-content-center" style={{backgroundColor:'var(--color-2)',border:'none'}}>
+              <div className="card p-3 m-3 col-md-5 d-flex align-items-center justify-content-center" style={{backgroundColor:'var(--color-2)',border:'none',borderRadius:'20px'}}>
                 <div className="card-body mobile w-50">
                 <div className="contact mb-3 d-flex justify-content-between">
                   <div className='col-md-6' style={{color: 'var(--color-5)', fontSize:'17px'}}>
@@ -143,7 +143,7 @@ export default function Contact() {
               </div>
               
 
-              <div className="card p-3 m-3 col-md-5" style={{backgroundColor:'var(--color-2)',border:'none'}}>
+              <div className="card p-3 m-3 col-md-5" style={{backgroundColor:'var(--color-2)',border:'none',borderRadius:'20px'}}>
               <h3 className='text-center' style={{color:'var(--color-6)',fontSize:'30px'}}>Contact Form</h3>
               <form onSubmit={(e) => onSubmit(e)}>
                 <div className="form-group formcarry-block">
@@ -158,7 +158,7 @@ export default function Contact() {
                 
                 <div className="form-group formcarry-block">
                   <label style={{color:'var(--color-5)'}} htmlFor="message">Your message</label>
-                  <textarea className='mb-2' style={{backgroundColor:'var(--color-2)',padding:'7px',color:'var(--color-6)',borderRadius:'5px',width:'100%',border:'1px solid var(--color-6)',outline:'none'}} value={message} onChange={(e) => setMessage(e.target.value)} id="message" required></textarea>
+                  <textarea className='mb-2' style={{backgroundColor:'var(--color-2)',padding:'7px',color:'var(--color-6)',borderRadius:'5px',width:'100%',border:'1px solid var(--color-6)',outline:'none',height:'150px'}} value={message} onChange={(e) => setMessage(e.target.value)} id="message" required></textarea>
                 </div>
                 
                 <div className="formcarry-block d-flex justify-content-center">  

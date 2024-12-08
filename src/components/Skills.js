@@ -9,7 +9,7 @@ export default function Skills() {
             </div>
             <div className="col-12 text-center">
                 <div className="row d-flex justify-content-center">
-                    <div className="card p-3 m-3 mb-5" style={{backgroundColor:'var(--color-2)',border:'none',width:'18rem'}}>
+                    <div className="card p-3 m-3 mb-5" style={{backgroundColor:'var(--color-2)',border:'none',borderRadius:'20px',width:'18rem'}}>
                         <h3 className='mx-3 pb-2 mb-3' style={{color:'var(--color-5)',borderBottom:'3px solid var(--color-5)',display:'inline'}}>Frontend</h3>
                         <div className="col-md-10 m-auto">
                             <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/HTML5-E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"/>
@@ -21,7 +21,7 @@ export default function Skills() {
                             <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/Angular-DD0031.svg?style=for-the-badge&logo=angular&logoColor=white"/>
                         </div>
                     </div>
-                    <div className="card p-3 m-3 mb-5" style={{backgroundColor:'var(--color-2)',border:'none',width:'18rem'}}>
+                    <div className="card p-3 m-3 mb-5" style={{backgroundColor:'var(--color-2)',border:'none',borderRadius:'20px',width:'18rem'}}>
                         <h3 className='mx-3 pb-2 mb-3' style={{color:'var(--color-5)',borderBottom:'3px solid var(--color-5)',display:'inline'}}>Backend</h3>
                         <div className="col-md-10 m-auto">
                             <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/Node.js-339933.svg?style=for-the-badge&logo=node.js&logoColor=white"/>
@@ -31,7 +31,7 @@ export default function Skills() {
                             <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/Flask-000000.svg?style=for-the-badge&logo=flask&logoColor=white"/>
                         </div>
                     </div>
-                    <div className="card p-3 m-3 mb-5" style={{backgroundColor:'var(--color-2)',border:'none',width:'18rem'}}>
+                    <div className="card p-3 m-3 mb-5" style={{backgroundColor:'var(--color-2)',border:'none',borderRadius:'20px',width:'18rem'}}>
                         <h3 className='mx-3 pb-2 mb-3' style={{color:'var(--color-5)',borderBottom:'3px solid var(--color-5)',display:'inline'}}>Databases</h3>
                         <div className="col-md-10 m-auto">
                             <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/MongoDB-47A248.svg?style=for-the-badge&logo=mongodb&logoColor=white"/>
@@ -40,7 +40,7 @@ export default function Skills() {
                             <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/PostgreSQL-336791.svg?style=for-the-badge&logo=postgresql&logoColor=white"/>
                         </div>
                     </div>
-                    <div className="card p-3 m-3 mb-5" style={{backgroundColor:'var(--color-2)',border:'none',width:'18rem'}}>
+                    <div className="card p-3 m-3 mb-5" style={{backgroundColor:'var(--color-2)',border:'none',borderRadius:'20px',width:'18rem'}}>
                         <h3 className='mx-3 pb-2 mb-3' style={{color:'var(--color-5)',borderBottom:'3px solid var(--color-5)',display:'inline'}}>Python Libraries</h3>
                         <div className="col-md-10 m-auto">
                             <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/BeautifulSoup-000000.svg?style=for-the-badge&logo=beautifulsoup&logoColor=white"/>
@@ -54,7 +54,7 @@ export default function Skills() {
                             <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/NumPy-013243.svg?style=for-the-badge&logo=numpy&logoColor=white"/>
                         </div>
                     </div>
-                    <div className="card p-3 m-3 mb-5" style={{backgroundColor:'var(--color-2)',border:'none',width:'18rem'}}>
+                    <div className="card p-3 m-3 mb-5" style={{backgroundColor:'var(--color-2)',border:'none',borderRadius:'20px',width:'18rem'}}>
                         <h3 className='mx-3 pb-2 mb-3' style={{color:'var(--color-5)',borderBottom:'3px solid var(--color-5)',display:'inline'}}>Tools</h3>
                         <div className="col-md-10 m-auto">
                             <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/Git-F05032.svg?style=for-the-badge&logo=git&logoColor=white"/>
@@ -71,7 +71,7 @@ export default function Skills() {
                             <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/Render-333.svg?style=for-the-badge&logo=render&logoColor=white"/>
                         </div>
                     </div>
-                    <div className="card p-3 m-3 mb-5" style={{backgroundColor:'var(--color-2)',border:'none',width:'18rem'}}>
+                    <div className="card p-3 m-3 mb-5" style={{backgroundColor:'var(--color-2)',border:'none',borderRadius:'20px',width:'18rem'}}>
                         <h3 className='mx-3 pb-2 mb-3' style={{color:'var(--color-5)',borderBottom:'3px solid var(--color-5)',display:'inline'}}>Programming Languages</h3>
                         <div className="col-md-10 m-auto">
                             <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/Python-3776AB.svg?style=for-the-badge&logo=python&logoColor=white"/>
@@ -85,7 +85,7 @@ export default function Skills() {
                             <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/Rust-00002C.svg?style=for-the-badge&logo=rust&logoColor=white"/>
                         </div>
                     </div>
-                    <div className="card p-3 m-3 mb-5" style={{backgroundColor:'var(--color-2)',border:'none',width:'18rem'}}>
+                    <div className="card p-3 m-3 mb-5" style={{backgroundColor:'var(--color-2)',border:'none',borderRadius:'20px',width:'18rem'}}>
                         <h3 className='mx-3 pb-2 mb-3' style={{color:'var(--color-5)',borderBottom:'3px solid var(--color-5)',display:'inline'}}>Graphic Designing</h3>
                         <div className="col-md-10 m-auto">
                             <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/Adobe Photoshop-31A8FF.svg?style=for-the-badge&logo=adobe-photoshop&logoColor=white"/>
@@ -96,7 +96,7 @@ export default function Skills() {
 
                         </div>
                     </div>
-                    <div className="card p-3 m-3 mb-5" style={{backgroundColor:'var(--color-2)',border:'none',width:'18rem'}}>
+                    <div className="card p-3 m-3 mb-5" style={{backgroundColor:'var(--color-2)',border:'none',borderRadius:'20px',width:'18rem'}}>
                         <h3 className='mx-3 pb-2 mb-3' style={{color:'var(--color-5)',borderBottom:'3px solid var(--color-5)',display:'inline'}}>Management Skills</h3>
                         <div className="col-md-10 m-auto">
                             <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/Leadership-FFA500.svg?style=for-the-badge&logo=leadership&logoColor=white"/>

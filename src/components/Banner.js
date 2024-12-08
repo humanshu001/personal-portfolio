@@ -1,5 +1,5 @@
 import React from 'react'
-import BannerImage from '../assets/images/BannerImage.webp'
+import BannerImage from '../assets/images/sideimage.svg'
 import { useState, useEffect } from 'react';
 
 export default function Banner() {
@@ -66,7 +66,7 @@ export default function Banner() {
                         I'm a <br /><span>#{text}</span>
                     </div>
                     <div className="right banner-right" style={{display:'flex',alignItems:'center',justifyContent:'center'}}>
-                        <img src={BannerImage} alt="" style={{width:'60%'}}/>
+                        <img src={BannerImage} alt="" style={{width:'30%'}}/>
                     </div>
                 </div>
                 <div className="col-md-12 px-5">
