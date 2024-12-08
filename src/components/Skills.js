@@ -19,6 +19,7 @@ export default function Skills() {
                             <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/React-61DAFB.svg?style=for-the-badge&logo=react&logoColor=white"/>
                             <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/TypeScript-3178C6.svg?style=for-the-badge&logo=typescript&logoColor=white"/>
                             <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/Angular-DD0031.svg?style=for-the-badge&logo=angular&logoColor=white"/>
+                            <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/Next.js-000000.svg?style=for-the-badge&logo=next.js&logoColor=white"/>
                         </div>
                     </div>
                     <div className="card p-3 m-3 mb-5" style={{backgroundColor:'var(--color-2)',border:'none',borderRadius:'20px',width:'18rem'}}>
