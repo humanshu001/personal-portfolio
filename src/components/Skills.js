@@ -30,6 +30,7 @@ export default function Skills() {
                             <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/Django-092E20.svg?style=for-the-badge&logo=django&logoColor=white"/> 
                             <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/PHP-777BB4.svg?style=for-the-badge&logo=php&logoColor=white"/>
                             <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/Flask-000000.svg?style=for-the-badge&logo=flask&logoColor=white"/>
+                            <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/Laravel-FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white"/>
                         </div>
                     </div>
                     <div className="card p-3 m-3 mb-5" style={{backgroundColor:'var(--color-2)',border:'none',borderRadius:'20px',width:'18rem'}}>
@@ -56,6 +57,15 @@ export default function Skills() {
                         </div>
                     </div>
                     <div className="card p-3 m-3 mb-5" style={{backgroundColor:'var(--color-2)',border:'none',borderRadius:'20px',width:'18rem'}}>
+                        <h3 className='mx-3 pb-2 mb-3' style={{color:'var(--color-5)',borderBottom:'3px solid var(--color-5)',display:'inline'}}>Devops</h3>
+                        <div className="col-md-10 m-auto">
+                            <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/Git-F05032.svg?style=for-the-badge&logo=git&logoColor=white"/>
+                            <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/Docker-2496ED.svg?style=for-the-badge&logo=docker&logoColor=white"/>
+                            <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/Docker Compose-111111.svg?style=for-the-badge&logo=docker&logoColor=white"/>
+                            <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/Kubernetes-326CE5.svg?style=for-the-badge&logo=kubernetes&logoColor=white"/>
+                        </div>
+                    </div>
+                    <div className="card p-3 m-3 mb-5" style={{backgroundColor:'var(--color-2)',border:'none',borderRadius:'20px',width:'18rem'}}>
                         <h3 className='mx-3 pb-2 mb-3' style={{color:'var(--color-5)',borderBottom:'3px solid var(--color-5)',display:'inline'}}>Tools</h3>
                         <div className="col-md-10 m-auto">
                             <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/Git-F05032.svg?style=for-the-badge&logo=git&logoColor=white"/>
@@ -68,7 +78,6 @@ export default function Skills() {
                             <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/Heroku-430098.svg?style=for-the-badge&logo=heroku&logoColor=white"/>
                             <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/Vercel-000000.svg?style=for-the-badge&logo=vercel&logoColor=white"/>
                             <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/FileZilla-BF0000.svg?style=for-the-badge&logo=filezilla&logoColor=white"/>
-                            {/* render */}
                             <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/Render-333.svg?style=for-the-badge&logo=render&logoColor=white"/>
                         </div>
                     </div>
